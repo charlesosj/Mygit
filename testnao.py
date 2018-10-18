@@ -1,4 +1,4 @@
-# -*- encoding: UTF-8 -*-
+
 
 ''' PoseInit: Small example to make Nao go to an initial position. '''
 
@@ -110,8 +110,6 @@ def main(robotIP):
 
 
 if __name__ == "__main__":
+    #add rorbot ip here
     robotIp = "127.0.0.1"
-
-    
-
     main(robotIp)
